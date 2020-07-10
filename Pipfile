@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+arrow = "*"
+python-twitter = "*"
+requests-oauthlib = "*"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+dry = "python twitter_rm/main.py"
